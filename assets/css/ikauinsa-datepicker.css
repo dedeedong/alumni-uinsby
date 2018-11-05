@@ -1,0 +1,82 @@
+/*
+
+	INSTRUCTIONS ---------------------------------------------------------------------------------
+  
+  1. link this stylesheet in the head of your HTML
+  	 <link href="YOUR PATH/ikauinsa-datepicker.css" rel="stylesheet" type="text/css" />
+     
+  2. Set the file name as data-theme attribute on your input
+  	 <input data-theme="ikauinsa-datepicker" />
+     
+  3. That's it!
+  
+  When you run script the style will be automatically applied.
+
+*/
+div.datedropper.ikauinsa-datepicker {
+  border-radius: 0px;
+  width: 185px;
+}
+div.datedropper.ikauinsa-datepicker .picker {
+  border-radius: 0px;
+  box-shadow: 0 0 33px 0px rgba(0, 0, 0, 0.3);
+}
+div.datedropper.ikauinsa-datepicker .pick-l {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+div.datedropper.ikauinsa-datepicker:before,
+div.datedropper.ikauinsa-datepicker .pick-submit,
+div.datedropper.ikauinsa-datepicker .pick-lg-b .pick-sl:before,
+div.datedropper.ikauinsa-datepicker .pick-m,
+div.datedropper.ikauinsa-datepicker .pick-lg-h {
+  background-color: #038237;
+}
+div.datedropper.ikauinsa-datepicker .pick-y.pick-jump,
+div.datedropper.ikauinsa-datepicker .pick li span,
+div.datedropper.ikauinsa-datepicker .pick-lg-b .pick-wke,
+div.datedropper.ikauinsa-datepicker .pick-btn {
+  color: #038237;
+}
+div.datedropper.ikauinsa-datepicker .picker,
+div.datedropper.ikauinsa-datepicker .pick-l {
+  background-color: #FFF;
+}
+div.datedropper.ikauinsa-datepicker .picker,
+div.datedropper.ikauinsa-datepicker .pick-arw,
+div.datedropper.ikauinsa-datepicker .pick-l {
+  color: #4D4D4D;
+}
+div.datedropper.ikauinsa-datepicker .pick-m,
+div.datedropper.ikauinsa-datepicker .pick-m .pick-arw,
+div.datedropper.ikauinsa-datepicker .pick-lg-h,
+div.datedropper.ikauinsa-datepicker .pick-lg-b .pick-sl,
+div.datedropper.ikauinsa-datepicker .pick-submit {
+  color: #FFF;
+}
+div.datedropper.ikauinsa-datepicker.picker-tiny:before,
+div.datedropper.ikauinsa-datepicker.picker-tiny .pick-m {
+  background-color: #FFF;
+}
+div.datedropper.ikauinsa-datepicker.picker-tiny .pick-m,
+div.datedropper.ikauinsa-datepicker.picker-tiny .pick-m .pick-arw {
+  color: #4D4D4D;
+}
+div.datedropper.ikauinsa-datepicker.picker-lkd .pick-submit {
+  background-color: #FFF;
+  color: #4D4D4D;
+}
+
+.datepicker-dropdown {
+  z-index: 1 !important;
+}
+
+.datepicker-panel>ul>li.picked, .datepicker-panel>ul>li.picked:hover {
+  background-color: #038237;
+  color: #fff;
+}
+
+.datepicker-top-left, .datepicker-top-right {
+  border-top-color: #038237;
+}
+
